@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .body {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./istockphoto-1130934320-612x612.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    overflow-x: hidden;
+  }
+  
+  #first-nav {
+    max-width: 90%;
+    border: 1px solid;
+  color: wheat;
+    box-shadow: 2px 1px white;
+    text-align: center;
+  
+  
+    border-radius: 10px;
+  }
+  #first-nav  {
+   width: 100%;
+   height: 4rem;
+   padding-top: 1rem;
+   font-size: 1.5rem;
+  }
+  
+  .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .span-1 {
+    width: 100%;
+    text-align: center;
+    line-height: 1.5;
+    padding-top: 20rem;
+    font-size: larger;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    padding-right: 5rem;
+    color: wheat;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .span-2 {
+    margin-top: 2rem;
+    width: 100%;
+    height: auto;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: larger;
+    line-height: 1.5;
+    color: wheat;
+    border-radius: 10px;
+    text-align: center;
+    overflow: scroll;
+    padding-top: 5rem;
+    /* background-image: linear-gradient(red, yellow); */
+  }
+  
+  input {
+    width: 20rem;
+    height: 3rem;
+    border-radius: 10px;
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+    font-family: "Poppins", sans-serif;
+    outline-color: #e22506;
+    
+  }
+  
+  p {
+    font-size: 2rem;
+  }
+  
+  @media screen and (max-width: 896px) {
+  
+    .content {
+      display: grid;
+      grid-template-columns: auto;
+      margin-bottom: 50rem;
+      margin-left: 1rem;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  
+    }
+    #first-nav h3{
+      padding: 10px;
+      font-size: 2rem;
+    }
+    .span-2{
+      height: 30rem;
+      border: 2px solid wheat;
+  
+    }
+  
+  }
+  
